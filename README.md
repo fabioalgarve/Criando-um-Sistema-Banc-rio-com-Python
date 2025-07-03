@@ -1,41 +1,41 @@
-<h1># DESAFIO: Criando um Sistema Bancário com Python<h1>
+<h1>DESAFIO: Criando um Sistema Bancário com Python</h1>
 
 Repositório com o código do Desafio do BootCamp Santander - Criando um Sistema Bancário com Python
 <br/>
 
 ### Objetivo Geral
-<br/>
-> Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato.
-<br/>
+
+Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato.
+
 ### Desafio
-<br/>
-> Fomos contratados por um grande banco para desenvolver o
+
+Fomos contratados por um grande banco para desenvolver o
 seu novo sistema. Esse banco deseja modernizar suas
 operações e para isso escolheu a linguagem Python. Para a
 primeira versão do sistema devemos implementar apenas 3
 operações: depósito, saque e extrato.
-<br/>
+
 ### Operação de depósito
-<br/>
->Deve ser possível depositar valores positivos para a minha
+
+Deve ser possível depositar valores positivos para a minha
 conta bancária. A v1 do projeto trabalha apenas com 1 usuário,
 dessa forma não precisamos nos preocupar em identificar qual
 é o número da agência e conta bancária. Todos os depósitos
 devem ser armazenados em uma variável e exibidos na
 operação de extrato.
-<br/>
+
 ### Operação de saque
-<br/>
+
 O sistema deve permitir realizar 3 saques diários com limite
 máximo de R$ 500,00 por saque. Caso o usuário não tenha
 saldo em conta, o sistema deve exibir uma mensagem
 informando que não será possível sacar o dinheiro por falta de
 saldo. Todos os saques devem ser armazenados em uma
 variável e exibidos na operação de extrato.
-<br/>
+
 ### Operação de Extrato
-<br/>
->Essa operação deve listar todos os depósitos e saques
+
+Essa operação deve listar todos os depósitos e saques
 realizados na conta. No fim da listagem deve ser exibido o
 saldo atual da conta. Se o extrato estiver em branco, exibir a
 mensagem: Não foram realizadas movimentações.
